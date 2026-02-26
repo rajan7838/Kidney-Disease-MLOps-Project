@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 
-model = joblib.load("Models/best_model.pkl")
+model = joblib.load("models/best_model.pkl")
 scaler = joblib.load("artifacts/scaler.pkl")
 
 
